@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Professional Developer</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">
+                <i class="fas fa-code me-2"></i>Portfolio
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resume">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero-section">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <h1 class="display-4 fw-bold text-white mb-4">
+                            Hi, I'm <span class="text-primary">Anudi Devasiri</span>
+                        </h1>
+                        <h2 class="h3 text-light mb-4" id="dynamic-title">Front-End Developer</h2>
+                        <p class="lead text-light mb-4" id="dynamic-description">
+                            Passionate about creating beautiful, responsive, and user-friendly web experiences with
+                            modern front-end technologies.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#portfolio" class="btn btn-primary btn-lg me-3">
+                                <i class="fas fa-eye me-2"></i>View My Work
+                            </a>
+                            <a href="#contact" class="btn btn-outline-light btn-lg">
+                                <i class="fas fa-envelope me-2"></i>Contact Me
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image text-center">
+                        <div class="profile-circle">
+                            <img src="img/profile2.jpg"
+                                style="width: 100%;height:100%;border-radius: 50%;object-fit: cover; " />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="title-underline"></div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4">
+                    <div class="about-image">
+                        <img src="img/profile.jpg" alt="Profile Photo" class="img-fluid rounded shadow">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <h3 class="mb-4">Who I Am</h3>
+                        <p class="lead mb-4">
+                            I am a passionate and detail-oriented Frontend Developer with a BSc in
+                            Management Information Systems (Second Class Lower Division, GPA:
+                            3.24).
+                        </p>
+                        <p class="mb-4">
+                            With over two years of professional experience at Insfra Technologies, I’m a passionate web
+                            and mobile app developer with a strong focus on creating clean, user-friendly interfaces. I
+                            enjoy bringing ideas to life — from designing UI in Figma to building responsive
+                            applications that perform seamlessly across all devices.<br><br>
+
+                            My skill set includes front-end and back-end development, UI/UX design, and proficiency with
+                            tools like Figma, Canva, Photoshop, and the full Microsoft Office suite. I’m also
+                            experienced in WordPress development, including custom theme and plugin development, which
+                            allows me to build tailored solutions that meet both design and functionality
+                            requirements.<br><br>
+
+                            Whether I’m working on a simple landing page or a full-scale mobile application, I pay close
+                            attention to detail and always aim for high-quality results. I’m a fast learner,
+                            hardworking, and always eager to take on new challenges. Driven by creativity, I take pride
+                            in delivering smart solutions that exceed expectations.
+                        </p>
+
+                        <div class="skills-section">
+                            <h4 class="mb-3">My Skills</h4>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="skill-item mb-3">
+                                        <div class="d-flex justify-content-between">
+                                            <span>HTML/CSS</span>
+                                            <span>95%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar" style="width: 95%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item mb-3">
+                                        <div class="d-flex justify-content-between">
+                                            <span>JavaScript</span>
+                                            <span>90%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar" style="width: 90%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item mb-3">
+                                        <div class="d-flex justify-content-between">
+                                            <span>Figma</span>
+                                            <span>95%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar" style="width: 85%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item mb-3">
+                                        <div class="d-flex justify-content-between">
+                                            <span>Wordpress</span>
+                                            <span>95%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar" style="width: 85%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="skill-item mb-3">
+                                        <div class="d-flex justify-content-between">
+                                            <span>Framework7</span>
+                                            <span>95%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar" style="width: 85%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item mb-3">
+                                        <div class="d-flex justify-content-between">
+                                            <span>PHP</span>
+                                            <span>75%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar" style="width: 90%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item mb-3">
+                                        <div class="d-flex justify-content-between">
+                                            <span>Bootstrap</span>
+                                            <span>95%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar" style="width: 95%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="py-5 bg-light">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Resume</h2>
+                    <div class="title-underline"></div>
+                </div>
+            </div>
+
+            <!-- Profile Summary -->
+            <div class="row mb-5">
+                <div class="col-12">
+                    <h3><i class="fas fa-user me-2 text-primary"></i>Profile</h3>
+                    <p>
+                        I am a passionate and detail-oriented Frontend Developer with a BSc in Management Information
+                        Systems (GPA: 3.24).
+                        With nearly two years of professional experience at Insfra Technologies, I’ve gained expertise
+                        in responsive frontend development, UI/UX best practices, and WordPress customizations.
+                        I’m committed to continuous learning and growth in the field.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Work Experience -->
+            <div class="row mb-5">
+                <div class="col-12">
+                    <h3><i class="fas fa-briefcase me-2 text-primary"></i>Work Experience</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h5>Frontend Developer</h5>
+                                <h6 class="text-primary">Insfra Technologies | 2023 - Present</h6>
+                                <p>
+                                    Developed and optimized responsive websites and web applications using modern
+                                    frontend technologies.
+                                    Collaborated with designers and backend developers to ensure seamless user
+                                    experiences.
+                                    Worked on WordPress custom themes, Framework7-based mobile apps, and Bootstrap
+                                    projects.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h5>Project Assistant</h5>
+                                <h6 class="text-primary">Open University of Sri Lanka | Feb 2023 - May 2023</h6>
+                                <p>
+                                    Assisted in IT-related research and development.
+                                    Supported students and staff in solving technical issues and conducting system
+                                    enhancements.
+                                    Conducted MS Office course training.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education -->
+            <div class="row mb-5">
+                <div class="col-12">
+                    <h3><i class="fas fa-graduation-cap me-2 text-primary"></i>Education</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h5>Diploma in Psychology and Counseling</h5>
+                                <h6 class="text-primary">IMBS Campus | 2024 - 2025</h6>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h5>BSc in Management Information Systems</h5>
+                                <h6 class="text-primary">NSBM Green University | 2019 - 2023</h6>
+                                <p>Second Class (Lower Division), GPA: 3.24</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h5>G.C.E A/L – Technology Stream</h5>
+                                <h6 class="text-primary">Badulla Central College | 2015 - 2018</h6>
+                                <p>Results: 2C, 1S (English - S)</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h5>G.C.E O/L</h5>
+                                <h6 class="text-primary">Viharamahadevi Girls' College | 2006 - 2015</h6>
+                                <p>2A, 2B, 3C, 2S (English - A | ICT - B | Math - C)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certifications -->
+            <div class="row mb-5">
+                <div class="col-12">
+                    <h3><i class="fas fa-certificate me-2 text-primary"></i>Certifications</h3>
+                    <ul>
+                        <li>SEO for Beginners – Great Learning</li>
+                        <li>Responsive Web Design – SoloLearn</li>
+                        <li>SQL – SoloLearn</li>
+                        <li>Coding for Marketers – SoloLearn</li>
+                        <li>React + Redux Course – SoloLearn</li>
+                        <li>Programming in HTML5 with JavaScript and CSS3 – Udemy</li>
+                        <li>Python Programming (Beginner) – Udemy</li>
+                        <li>UI/UX for Beginners – Great Learning</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Skills -->
+            <div class="row mb-5">
+                <div class="col-12">
+                    <h3><i class="fas fa-tools me-2 text-primary"></i>Soft Skills</h3>
+                    <ul class="mb-2">
+                        <li>Problem-Solving & Critical Thinking</li>
+                        <li>Effective Communication & Teamwork</li>
+                        <li>Adaptability & Self-Motivation</li>
+                        <li>Time Management & Attention to Detail</li>
+                        <li>Creativity & UI/UX Sensitivity</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Languages -->
+            <div class="row mb-5">
+                <div class="col-12">
+                    <h3><i class="fas fa-language me-2 text-primary"></i>Languages</h3>
+                    <ul>
+                        <li>English – Fluent</li>
+                        <li>Sinhala – Native</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- References -->
+            <div class="row mb-5">
+                <div class="col-12">
+                    <h3><i class="fas fa-user-check me-2 text-primary"></i>References</h3>
+                    <ul>
+                        <li>
+                            <strong>Mr. K.L.A. Senevirathne</strong><br>
+                            Deputy General Manager, Commercial Credit & Finance PLC<br>
+                            Email: senevirathne@cclk.lk | Phone: 077 759 4341
+                        </li>
+                        <li class="mt-3">
+                            <strong>Mrs. S.P.L.K. Samarasinghe</strong><br>
+                            Deputy Director, Uva Provincial Council<br>
+                            Email: kumudu.3g@gmail.com | Phone: 071 439 9823
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Portfolio and LinkedIn -->
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <a href="https://github.com/Anudi1999/my-work-portfolio/blob/main/Work-portfolio.pdf"
+                        class="btn btn-outline-dark me-3" target="_blank">
+                        <i class="fab fa-github me-2"></i>View Portfolio
+                    </a>
+                    <a href="http://www.linkedin.com/in/anudi-devasiri-64705521a" class="btn btn-outline-primary"
+                        target="_blank">
+                        <i class="fab fa-linkedin me-2"></i>View LinkedIn
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">My Portfolio</h2>
+                    <div class="title-underline"></div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-12">
+                    <div class="portfolio-filters text-center">
+                        <button class="btn btn-outline-primary me-2 mb-2 filter-btn active"
+                            data-filter="all">All</button>
+                        <button class="btn btn-outline-primary me-2 mb-2 filter-btn" data-filter="web">Web Apps</button>
+                        <button class="btn btn-outline-primary me-2 mb-2 filter-btn" data-filter="mobile">Mobile
+                            Apps</button>
+                        <button class="btn btn-outline-primary me-2 mb-2 filter-btn"
+                            data-filter="design">Design</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col portfolio-item" data-category="mobile">
+                    <div class="container">
+                        <div class="portfolio-content">
+                            <div class="portfolio-tags">
+                                <span class="badge me-1" style="background-color: rgb(147 9 122) !important;">Framework7</span>
+                                <span class="badge me-1" style="background-color: rgb(147 9 122) !important;">CSS3</span>
+                                <span class="badge me-1" style="background-color: rgb(147 9 122) !important;">Js</span>
+                                <span class="badge me-1" style="background-color: rgb(147 9 122) !important;">PHP</span>
+                                <span class="badge me-1" style="background-color: rgb(147 9 122) !important;">Responsive</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <!-- Portfolio Image 1 -->
+                            <div class="col-md-3 mb-4">
+                                <div class="portfolio-card">
+                                    <div class="portfolio-image">
+                                        <img src="img/App1/1.png" alt="E-Commerce App" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Portfolio Image 2 -->
+                            <div class="col-md-3 mb-4">
+                                <div class="portfolio-card">
+                                    <div class="portfolio-image">
+                                        <img src="img/App1/2.png" alt="Landing Page" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Portfolio Image 3 -->
+                            <div class="col-md-3 mb-4">
+                                <div class="portfolio-card">
+                                    <div class="portfolio-image">
+                                        <img src="img/App1/3.png" alt="Mobile UI" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Portfolio Image 4 -->
+                            <div class="col-md-3 mb-4">
+                                <div class="portfolio-card">
+                                    <div class="portfolio-image">
+                                        <img src="img/App1/4.png" alt="Landing Page" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+          <div class="row">
+                <div class="col portfolio-item" data-category="mobile">
+                    <div class="container">
+                        <div class="portfolio-content">
+                            <div class="portfolio-tags">
+                                <span class="badge me-1" style="background-color: rgb(37 189 200) !important;">Framework7</span>
+                                <span class="badge me-1" style="background-color: rgb(37 189 200) !important;">CSS3</span>
+                                <span class="badge me-1" style="background-color: rgb(37 189 200) !important;">Js</span>
+                                <span class="badge me-1" style="background-color: rgb(37 189 200) !important;">PHP</span>
+                                <span class="badge me-1" style="background-color: rgb(37 189 200) !important;">Responsive</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <!-- Portfolio Image 1 -->
+                            <div class="col-md-3 mb-4">
+                                <div class="portfolio-card">
+                                    <div class="portfolio-image">
+                                        <img src="img/App2/1.png" alt="E-Commerce App" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Portfolio Image 2 -->
+                            <div class="col-md-3 mb-4">
+                                <div class="portfolio-card">
+                                    <div class="portfolio-image">
+                                        <img src="img/App2/2.png" alt="Landing Page" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Portfolio Image 3 -->
+                            <div class="col-md-3 mb-4">
+                                <div class="portfolio-card">
+                                    <div class="portfolio-image">
+                                        <img src="img/App2/3.png" alt="Mobile UI" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Portfolio Image 4 -->
+                            <div class="col-md-3 mb-4">
+                                <div class="portfolio-card">
+                                    <div class="portfolio-image">
+                                        <img src="img/App2/4.png" alt="Landing Page" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item" data-category="web">
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="https://via.placeholder.com/400x300/dc3545/ffffff?text=Social+Media+Dashboard"
+                            alt="Social Media Dashboard" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-links">
+                                <a href="#" class="btn btn-light btn-sm me-2">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="#" class="btn btn-light btn-sm">
+                                    <i class="fas fa-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h5>Social Media Dashboard</h5>
+                        <p>Interactive dashboard with modern UI and responsive design</p>
+                        <div class="portfolio-tags">
+                            <span class="badge bg-danger me-1">Vue.js</span>
+                            <span class="badge bg-danger me-1">SASS</span>
+                            <span class="badge bg-danger">Responsive</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item" data-category="design">
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="https://via.placeholder.com/400x300/ffc107/000000?text=UI+Design+System"
+                            alt="UI Design System" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-links">
+                                <a href="#" class="btn btn-light btn-sm me-2">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="#" class="btn btn-light btn-sm">
+                                    <i class="fas fa-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h5>UI Design System</h5>
+                        <p>Comprehensive CSS component library and design system</p>
+                        <div class="portfolio-tags">
+                            <span class="badge bg-warning me-1 text-dark">CSS3</span>
+                            <span class="badge bg-warning me-1 text-dark">SASS</span>
+                            <span class="badge bg-warning text-dark">Components</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item" data-category="web">
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="https://via.placeholder.com/400x300/6f42c1/ffffff?text=Blog+Platform"
+                            alt="Blog Platform" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-links">
+                                <a href="#" class="btn btn-light btn-sm me-2">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="#" class="btn btn-light btn-sm">
+                                    <i class="fas fa-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h5>Blog Platform</h5>
+                        <p>Modern blog front-end with responsive design and clean typography</p>
+                        <div class="portfolio-tags">
+                            <span class="badge bg-purple me-1">HTML5</span>
+                            <span class="badge bg-purple me-1">CSS3</span>
+                            <span class="badge bg-purple">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item" data-category="mobile">
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="https://via.placeholder.com/400x300/17a2b8/ffffff?text=Fitness+Tracker"
+                            alt="Fitness Tracker" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-links">
+                                <a href="#" class="btn btn-light btn-sm me-2">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="#" class="btn btn-light btn-sm">
+                                    <i class="fas fa-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h5>Fitness Tracker</h5>
+                        <p>Progressive Web App for tracking workouts with modern UI</p>
+                        <div class="portfolio-tags">
+                            <span class="badge bg-info me-1">PWA</span>
+                            <span class="badge bg-info me-1">CSS3</span>
+                            <span class="badge bg-info">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title text-white">Get In Touch</h2>
+                    <div class="title-underline bg-white"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 mb-5">
+                    <h3 class="mb-4">Let's Talk</h3>
+                    <p class="lead mb-4">
+                        I'm always interested in new front-end development opportunities and exciting UI/UX projects.
+                        Feel free to reach out if you'd like to collaborate on creating amazing web experiences!
+                    </p>
+
+                    <div class="contact-info">
+                        <div class="contact-item mb-3">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-envelope me-3 text-primary"></i>
+                                <div>
+                                    <h6 class="mb-0">Email</h6>
+                                    <p class="mb-0">anudidevasiri@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-item mb-3">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-phone me-3 text-primary"></i>
+                                <div>
+                                    <h6 class="mb-0">Phone</h6>
+                                    <p class="mb-0">+94 71 153 5715</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-item mb-3">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-map-marker-alt me-3 text-primary"></i>
+                                <div>
+                                    <h6 class="mb-0">Location</h6>
+                                    <p class="mb-0">Badulla, Uva Province, Sri Lanka</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links mt-4">
+                        <h6 class="mb-3">Follow Me</h6>
+                        <a href="#" class="btn btn-outline-light me-2">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p class="mb-0">&copy; 2025 Anudi. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
