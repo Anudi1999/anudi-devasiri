@@ -393,30 +393,30 @@ document.addEventListener('DOMContentLoaded', function() {
     document.head.appendChild(loadingStyle);
 
     // Portfolio item click handlers
-    const portfolioLinks = document.querySelectorAll('.portfolio-links a');
-    portfolioLinks.forEach(link => {
-        link.addEventListener('click', function(e) {
-            e.preventDefault();
-            const action = this.querySelector('i').classList.contains('fa-eye') ? 'view' : 'visit';
-            const projectName = this.closest('.portfolio-card').querySelector('h5').textContent;
+    // const portfolioLinks = document.querySelectorAll('.portfolio-links a');
+    // portfolioLinks.forEach(link => {
+    //     link.addEventListener('click', function(e) {
+    //         e.preventDefault();
+    //         const action = this.querySelector('i').classList.contains('fa-eye') ? 'view' : 'visit';
+    //         const projectName = this.closest('.portfolio-card').querySelector('h5').textContent;
             
-            if (action === 'view') {
-                showNotification(`Opening ${projectName} preview...`, 'info');
-            } else {
-                showNotification(`Redirecting to ${projectName}...`, 'info');
-            }
-        });
-    });
+    //         if (action === 'view') {
+    //             showNotification(`Opening ${projectName} preview...`, 'info');
+    //         } else {
+    //             showNotification(`Redirecting to ${projectName}...`, 'info');
+    //         }
+    //     });
+    // });
 
     // Social media links
-    const socialLinks = document.querySelectorAll('.social-links a');
-    socialLinks.forEach(link => {
-        link.addEventListener('click', function(e) {
-            e.preventDefault();
-            const platform = this.querySelector('i').classList[1].split('-')[1];
-            showNotification(`Opening ${platform} profile...`, 'info');
-        });
-    });
+    // const socialLinks = document.querySelectorAll('.social-links a');
+    // socialLinks.forEach(link => {
+    //     link.addEventListener('click', function(e) {
+    //         e.preventDefault();
+    //         const platform = this.querySelector('i').classList[1].split('-')[1];
+    //         showNotification(`Opening ${platform} profile...`, 'info');
+    //     });
+    // });
 
     // Download resume button
     const downloadBtn = document.querySelector('a[href="#"]');
