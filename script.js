@@ -427,5 +427,10 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
+
+     document.querySelector('.col-lg-6.mb-4.position-relative').addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+  });
+
     console.log('Portfolio website loaded successfully! 🚀');
 }); 
