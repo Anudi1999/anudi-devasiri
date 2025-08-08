@@ -101,11 +101,25 @@
             </div>
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 position-relative" style="position: relative;">
-                  <div class="about-image">
-                    <img src="img/profile2.jpg" alt="Profile Photo" class="img-fluid rounded shadow" draggable="false">
-                    <div style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10;"></div>
-                  </div>
-                </div>
+  <div class="about-image" style="position: relative; overflow: hidden;">
+    <img src="img/profile2.jpg" alt="Profile Photo" class="img-fluid rounded shadow" draggable="false" style="display: block; width: 100%; border-radius: 0.5rem;">
+    
+    <!-- Blurred overlay -->
+    <div style="
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      background-color: rgba(255, 255, 255, 0.2);
+      z-index: 10;
+      border-radius: 0.5rem;
+    "></div>
+  </div>
+</div>
+
                 <div class="col-lg-6">
                     <div class="about-content">
                         <h3 class="mb-4">Who I Am</h3>
